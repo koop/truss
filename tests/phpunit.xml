@@ -1,0 +1,13 @@
+<phpunit
+	bootstrap="bootstrap.php"
+	verbose="true">
+	<testsuites>
+		<testsuite name="Core">
+			<file>core/test-existence.php</file>
+			<file>core/test-rule-tokenizer.php</file>
+		</testsuite>
+		<testsuite name="CSS Parser">
+			<file>css/test-css-parser.php</file>
+		</testsuite>
+	</testsuites>
+</phpunit>
